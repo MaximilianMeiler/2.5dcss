@@ -1,0 +1,28 @@
+.block {
+  padding-left: 200px;
+}
+
+.block > figure {
+  /* border: 1px black solid; */
+  position: absolute;
+  -webkit-transform-origin: 50% 50% 0;
+}
+
+.left {
+  transform: skewY(22.5deg);
+  margin: 0;
+  padding: 0;
+  background-color: #00E5BB;
+}
+.right {
+  transform: skewY(-22.5deg);
+  margin: 0;
+  padding: 0;  
+  background-color: #00CBA5;
+}
+.top {
+  margin: 0;
+  padding: 0;
+  transform: rotateZ(-45deg) skew(22.5deg, 22.5deg);
+  background-color: #00FFD0;
+}
